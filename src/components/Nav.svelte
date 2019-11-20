@@ -67,9 +67,9 @@
 <nav class:expanded>
 	<div class="menu">
 		<ul>
-			<button class="toggle" id="nav" on:click="{() => expanded = !expanded}"><Icon name="menu" size=20/></button>
+      <button class="toggle" id="nav" on:click="{() => expanded = !expanded}"><Icon name="menu" size=20/></button>
 			<li class:selected={segment === undefined || segment === "home" ? "current" : ""}>
-				<a href="." id="home" on:click="{() => current = 'home'}">
+				<a href="." on:click="{() => current = 'home'}">
 					<Icon name="home" size=20/>
 					{#if expanded}<p>Home</p>{/if}
 				</a>

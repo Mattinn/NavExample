@@ -7,7 +7,6 @@
 
 <style>
 	main {
-		position: relative;
 		height: 100vh;
 		max-width: 56em;
 		background-color: white;
